@@ -24,6 +24,7 @@ ul {
 .container {
   width: 1280px;
   margin: auto;
+  postion: relative;
 }
 /* FINE REGOLE GENERALI */
 
@@ -82,5 +83,25 @@ header .top-header .container .col li a.login-menu {
 header .top-header .container .col li a.green-link-menu {
   background-color: #3aaf43;
   border-radius: 5px;
+}
+
+header .top-header .container .teaser {
+  position: absolute;
+  top: 18%;
+  left: 16%;
+}
+
+header .top-header .container .teaser .titolo {
+  font-size: 45px;
+  width: 500px;
+  margin-bottom: 35px;
+}
+
+header .top-header .container .teaser .cta {
+  color: white;
+  text-decoration: none;
+  background-color: #3aaf43;
+  border-radius: 3px;
+  padding: 15px 20px;
 }
 /* FINE HEADER */
