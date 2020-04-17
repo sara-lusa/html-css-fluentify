@@ -1,0 +1,39 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* REGOLE GENERALI */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1280px;
+  margin: auto;
+}
+/* FINE REGOLE GENERALI */
+
+/* HEADER */
+header .top-header {
+  background-color: #143b65;
+  height: 500px;
+  background-image: url(../img/background-header.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 110% 100%;
+}
+
+header .top-header .container .col {
+  float: left;
+}
+/* FINE HEADER */
