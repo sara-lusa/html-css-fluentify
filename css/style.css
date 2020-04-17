@@ -58,6 +58,7 @@ header .top-header .container .col.col-menu-right {
 header .top-header .container .col.col-menu-right, .col.col-menu-center {
   padding-top: 10px;
 }
+
 header .top-header .container .col li {
   display: inline-block;
 }
@@ -68,5 +69,18 @@ header .top-header .container .col li a {
   padding: 10px;
   font-size: 15px;
   text-transform: uppercase;
+}
+header .top-header .container .col li a:hover {
+  color: orange;
+}
+
+header .top-header .container .col li a.login-menu {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+header .top-header .container .col li a.green-link-menu {
+  background-color: #3aaf43;
+  border-radius: 5px;
 }
 /* FINE HEADER */
