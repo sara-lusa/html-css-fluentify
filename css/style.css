@@ -11,6 +11,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .clearfix {
   content: '';
   display: table;
@@ -31,9 +35,38 @@ header .top-header {
   background-size: 1000px;
   background-repeat: no-repeat;
   background-position: 110% 100%;
+  color: white;
+  padding: 10px;
 }
 
 header .top-header .container .col {
   float: left;
+}
+
+header .top-header .container .col.col-logo {
+  width: 15%;
+}
+
+header .top-header .container .col.col-menu-center {
+  width: 45%;
+}
+
+header .top-header .container .col.col-menu-right {
+  width: 40%;
+  text-align: right;
+}
+header .top-header .container .col.col-menu-right, .col.col-menu-center {
+  padding-top: 10px;
+}
+header .top-header .container .col li {
+  display: inline-block;
+}
+
+header .top-header .container .col li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 /* FINE HEADER */
