@@ -200,3 +200,25 @@ main .col-main-bottom.col-title p {
 }
 /* Fine bottom-main */
 /* FINE MAIN */
+
+/* FOOTER */
+footer .footer {
+  background-color: lightgrey;
+}
+
+footer .footer .container .col-footer {
+  float: left;
+  width: 50%;
+}
+
+footer .footer .container .col-footer.col-footer-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+footer .footer .container .col-footer.col-form .col-footer2 {
+  float: left;
+  width: 33%;
+}
+/* FINE FOOTER */
