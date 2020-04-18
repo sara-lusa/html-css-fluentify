@@ -135,6 +135,9 @@ header .bottom-header .container-center p {
   padding-top: 10px;
 }
 /* FINE HEADER */
+
+/* MAIN */
+/* Inizio top-main */
 main .top-main .container .col-main {
   float: left;
   text-align: center;
@@ -166,3 +169,34 @@ main .top-main .container .col-main hr {
   margin: 0 auto 20px auto;
   width: 20%;
 }
+/* Fine top-main */
+
+main .hr-center {
+  width: 98%;
+  margin: 0 auto;
+  color: lightgrey;
+}
+
+/* Inizio bottom-main */
+main .col-main-bottom {
+  float: left;
+  width: 50%;
+  padding: 50px 0;
+}
+
+main .col-main-bottom.col-title {
+  padding-left: 100px;
+}
+
+main .col-main-bottom.col-title h2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+main .col-main-bottom.col-title p {
+  font-size: 18px;
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+/* Fine bottom-main */
+/* FINE MAIN */
