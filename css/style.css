@@ -24,7 +24,7 @@ ul {
 .container {
   width: 1280px;
   margin: auto;
-  postion: relative;
+  position: relative;
 }
 /* FINE REGOLE GENERALI */
 
@@ -92,8 +92,8 @@ header .top-header .container .col li a.green-link-menu {
 /* Teaser */
 header .top-header .container .teaser {
   position: absolute;
-  top: 18%;
-  left: 16%;
+  top: 150px;
+  left: 150px;
 }
 
 header .top-header .container .teaser .titolo {
@@ -109,6 +109,10 @@ header .top-header .container .teaser .cta {
   border-radius: 3px;
   padding: 15px 20px;
   text-transform: uppercase;
+}
+
+header .top-header .container .teaser .cta:hover {
+  color: orange;
 }
 
 /* Bottom-Header */
