@@ -135,3 +135,34 @@ header .bottom-header .container-center p {
   padding-top: 10px;
 }
 /* FINE HEADER */
+main .top-main .container .col-main {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 40px 0;
+}
+
+main .top-main .container .col-main img {
+  width: 210px;
+}
+#img-left {
+  width: 177px;
+}
+#img-center {
+  width: 300px;
+}
+
+main .top-main .container .col-main.col-main-center {
+  margin: 0 4.5%;
+}
+
+main .top-main .container .col-main h2 {
+  color: #3aaf43;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+main .top-main .container .col-main hr {
+  margin: 0 auto 20px auto;
+  width: 20%;
+}
