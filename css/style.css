@@ -204,6 +204,7 @@ main .col-main-bottom.col-title p {
 /* FOOTER */
 footer .footer {
   background-color: lightgrey;
+  padding: 65px 0;
 }
 
 footer .footer .container .col-footer {
@@ -219,6 +220,27 @@ footer .footer .container .col-footer.col-footer-link a {
 
 footer .footer .container .col-footer.col-form .col-footer2 {
   float: left;
-  width: 33%;
+  width: 32%;
+}
+
+footer .footer .container .col-footer.col-form .col-footer2.col-footer2-left {
+  text-align: right;
+  display: block;
+}
+
+footer .footer .container .col-footer.col-form .col-footer2.col-footer2-center {
+  margin: 0 2%;
+  border-bottom: 1px solid grey;
+}
+
+footer .footer .container .col-footer.col-form .col-footer2.col-footer2-center i {
+  margin-left: 59%;
+}
+
+footer .footer .container .col-footer.col-form .col-footer2.col-footer2-right a {
+  text-decoration: none;
+  color: white;
+  background-color: #3aaf43;
+  padding: 15px 10px;
 }
 /* FINE FOOTER */
