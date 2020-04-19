@@ -26,6 +26,18 @@ ul {
   margin: auto;
   position: relative;
 }
+
+.green-button {
+  background-color: #3aaf43;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.green-button:hover {
+  color: orange;
+}
 /* FINE REGOLE GENERALI */
 
 /* HEADER */
@@ -39,7 +51,7 @@ header .top-header {
   background-repeat: no-repeat;
   background-position: 110% 100%;
   color: white;
-  padding: 10px;
+  padding: 15px;
 }
 
 /* Colonne Menu */
@@ -85,10 +97,6 @@ header .top-header .container .col li a.login-menu {
   border-radius: 5px;
 }
 
-header .top-header .container .col li a.green-link-menu {
-  background-color: #3aaf43;
-  border-radius: 5px;
-}
 /* Teaser */
 header .top-header .container .teaser {
   position: absolute;
@@ -103,16 +111,7 @@ header .top-header .container .teaser .titolo {
 }
 
 header .top-header .container .teaser .cta {
-  color: white;
-  text-decoration: none;
-  background-color: #3aaf43;
-  border-radius: 3px;
   padding: 15px 20px;
-  text-transform: uppercase;
-}
-
-header .top-header .container .teaser .cta:hover {
-  color: orange;
 }
 
 /* Bottom-Header */
@@ -218,6 +217,10 @@ footer .footer .container .col-footer.col-footer-link a {
   font-size: 30px;
 }
 
+footer .footer .container .col-footer.col-footer-link a:hover {
+  color: orange;
+}
+
 footer .footer .container .col-footer.col-form .col-footer2 {
   float: left;
   width: 32%;
@@ -238,9 +241,15 @@ footer .footer .container .col-footer.col-form .col-footer2.col-footer2-center i
 }
 
 footer .footer .container .col-footer.col-form .col-footer2.col-footer2-right a {
-  text-decoration: none;
-  color: white;
-  background-color: #3aaf43;
-  padding: 15px 10px;
+  padding: 15px 5px;
 }
+
+
 /* FINE FOOTER */
+
+.help-button a {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  padding: 10px 10px;
+}
